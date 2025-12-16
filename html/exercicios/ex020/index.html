@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo de caixas</title>
+    <style>
+
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+
+
+        h1{
+             /* lembre-se de que pode transformalo em inline-level*/
+            
+            background-color: rgba(255, 255, 255, 0.397);
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            padding: 10px;
+            margin: auto; /* colocando a margin no auto o elemento fica no meio*/
+
+            margin: 20px auto 50px auto; /* desta forma voce so modifica a margem de cima e de baixo mantendo o elemento no meio*/           
+               
+        }
+
+        a{
+            display: block; /* transforma o elemento em um box level */
+            border: 3px solid palegreen;
+            margin: 10px;
+            padding: 5px;
+            text-decoration: none;/* tira o sublinhado de um texto*/
+        }
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box level</h1>
+    <p>paragrafos tambem sao exemplos de box level, mas os <a href="#">links sao exemplos de inline level</a> vamos ver como tudo isso funciona.</p> 
+</body>
+</html>
+
+<!--Propriedades de borda:
+
+
+
+   largura	->	border-width: 10px;
+
+
+
+   estilo	->	border-style: solid;	 (sólida)
+
+					     : dashed;	 (tracejada)
+
+					     : dotted;	 (pontilhada)
+
+					     : double;	 (dupla)
+
+					     : groove;	 (em 3d)
+
+
+
+   cor 	->	border-color: red;
+
+
+
+  - Shorthand: 
+
+
+
+	border: 10px solid red (largura, estilo, cor)
+
+
+
+
+
+Propriedades de padding:
+
+
+
+	padding-top: 10px;	   (de topo)
+
+	padding-right: 10px;	   (à direita)
+
+	padding-bottom: 10px    (de baixo)
+
+	padding-left: 10px;	   (à esquerda)
+
+
+
+  - Shorthand: 
+
+	
+
+	padding: 15px 10px 15px 10px;    (sent. horário: top, right, bottom, left)
+
+	padding: 10px; 		(os 4 lados iguais a 10px)
+
+	padding: 15px 10px;	 (cima e baixo 15px / esquerda e direita 10px)
+
+
+
+		   
+
+Acessar DevTools do Chrome: botão direito no corpo do site -> inspecionar
+
+
+
+box-level = block-level-->

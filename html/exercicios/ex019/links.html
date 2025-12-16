@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+         /*
+            #  =  id
+            .  =  class
+            :  =  pseudo-class
+            :: = pseudo-elemento
+            >  = filho         
+         */
+
+        a{
+            color: black;
+            text-decoration: none; /*tiro o sublinhado do link*/
+            font-weight: bold /* coloco em negegrito*/
+        }
+
+        a:visited{                 /* seleciono os links que ja foram visitados*/
+            color: blueviolet;
+        }
+
+        a:hover{ /* seleciono o que vai acontecer quando colocar o mouse em cima*/
+
+            text-decoration: underline; /* quando eu passo o mouse em cima o texto fica sublinhado */
+
+            color: black;/* a cor tambem fica preta*/
+        }
+
+        a:active{ /* seleciono o que acontece quando o elemento e clicado */
+            color: yellow;
+        }
+
+        a::before{  /* cria um pseudo elemento que adiciona coisas antes do elemento*/
+
+            content: '➥';  /* como por exemplo eu adicionei um conteudo que é uma seta*/
+        }
+
+        a::after{   /* cria um pseudo elemento que adiciona coisas depois do elemento*/
+
+            content: '↫'  /* como por exemplo eu adicionei um conteudo que é uma seta*/
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">aula</a>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">aula</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">aula</a></li>    
+    </ul>
+</body>
+</html>

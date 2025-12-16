@@ -1,0 +1,3 @@
+Para criar a estrutura html basta digitar "!" que a ide completa
+
+para quebrar linha basta escrever <br>

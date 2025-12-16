@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+       /* em html é id em css é #
+          em html é class em css é . */
+
+body{
+    background-color: rgb(181, 238, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(0, 83, 83);
+}
+
+h2{
+    color: rgb(2, 196, 196);
+}   
+
+h1#secao1{     /* quando eu coloco # e o nome do id eu seleciono apenas ele no css*/
+    text-align: center;
+}
+
+.basico{
+    color: rgb(0, 17, 255);
+}
+
+.intermediario{
+    color: rgb(238, 255, 0);
+}
+
+.avançado{
+    color: red;
+}
+
+.ex2classes{
+    background-color: rgba(137, 43, 226, 0.247);
+}

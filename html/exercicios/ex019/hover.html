@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+        
+        div > p {           /* crio um um filho da div que é o <p> */
+        
+            display: none;  /* o filho da div fica escondido */
+            
+        }
+        
+        div:hover > p{      /* quando eu passo o mouse em cima da div seleciono o que vai acontecer com o filho dela(p)*/
+
+            background-color: blueviolet;
+            display: block; /* o filho da div aparece(p)*/
+            color: aliceblue;
+        }
+
+        div:hover{ /* seleciono o que vai acontecer quando eu passo o mouse na div*/
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o textp abaixo</p>
+    <div>Passe o mouse aqui
+        <p>OLHA O FUTURO MENU AQUI :))) </p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

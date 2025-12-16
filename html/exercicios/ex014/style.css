@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(97, 0, 97), rgb(255, 255, 255));
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(31, 8, 31, 0.562);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0)
+    ;
+}
+
+p{
+    text-align: justify;
+}
+
+/*<main>	->	div especial, indica que o conteúdo é principal
+
+width	->	largura da caixa
+
+padding	->	espaço lateral do texto dentro da caixa
+
+margin	->	margem do texto (auto, 3px, ...) 
+
+text-align	->	alinhamento do texto (center, end, justify, ...)
+
+border-radius	-> cantos da caixa arredondados
+
+box-shadow / text-shadow	->	sombra da caixa
+
+    - parâmetros: tam. sombra p/ lado, tam. sombra p/ baixo, espalhamento, cor;
+
+*/
