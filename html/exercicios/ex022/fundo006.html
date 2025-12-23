@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A linhando ao centro</title>
+    <style>
+        #conteiner{
+            background-color: purple; /* -> opcional; em CSS já é relative por padrão
+*/
+            position: relative;
+            height: 500px;
+            padding: 10px;
+
+
+
+
+            /* forma atual de se fazer
+            
+                    background-color: purple;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; */
+            
+        }
+
+        #conteudo{
+            position: absolute; /* permite usar as propriedades top e left
+*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            top: 50%; /*o canto top left que ficará centralizado (precisa de transform)*/
+            left: 50%;
+
+            transform: translate(-50%,-50%);	/* -> translate(mov horizontal, mov vertical).
+                                                                                -> Muda a posição de referência de 'topo/esquerdo' (padrão), para uma outra 
+                                                                                    qualquer (ex: centro)*/
+
+        }
+    </style>
+</head>
+<body>
+    <section id ="conteiner">
+        <article id="conteudo"> 
+
+        </article>
+    </section>
+</body>
+</html>
