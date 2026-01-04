@@ -39,3 +39,9 @@ body{
 article h2, p{
     padding: 10px;
 }
+
+article{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
