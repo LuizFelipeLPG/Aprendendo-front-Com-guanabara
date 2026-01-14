@@ -64,7 +64,7 @@ div#formulario > h1{
 }
 
 div#formulario > p{
-    font-size: 0.9em;
+    font-size: 1em;
     margin-bottom: 5px;
 }
 
@@ -85,10 +85,10 @@ div.campo > input{
     width: calc(100% - 50px);
     height: 100%;
     font-size: 1em;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
-    transform: translatey(-12px);
     border: 1px solid rgba(0, 0, 0, 0.219);
+     transform: translatey(-12px);
 }
 
 form > input[type=submit]{
